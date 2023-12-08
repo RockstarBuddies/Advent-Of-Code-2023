@@ -2,7 +2,7 @@ import itertools
 import math
 import re
 
-with open("C:\\Users\\hp\\OneDrive\\Desktop\\Code\\Advent_Of_Code_2023\\input3.txt") as f:
+with open("input.txt") as f:
     ls = f.read().strip().split("\n")
 
 box = list(itertools.product((-1, 0, 1), (-1, 0, 1)))
