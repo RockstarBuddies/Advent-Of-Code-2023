@@ -1,4 +1,4 @@
-lines = open('C:\\Users\\hp\\OneDrive\\Desktop\\Code\\Advent_Of_Code_2023\\input4.txt', 'r').readlines()
+lines = open('input.txt', 'r').readlines()
 
 total = 0
 for i in lines:
