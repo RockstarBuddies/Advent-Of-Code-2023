@@ -1,5 +1,5 @@
 from math import lcm
-with open("C:\\Users\\hp\\OneDrive\\Desktop\\Code\\Advent_Of_Code_2023\\input8.txt") as input:
+with open("input.txt") as input:
     directions, paths = input.read().split('\n\n')
     paths = {k.strip():v[2:-1].replace(' ','').split(',') for k,v in (line.split('=') for line in paths.splitlines())}
     starts = [k for k in paths if k.endswith('A')]
