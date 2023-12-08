@@ -1,6 +1,6 @@
 from functools import reduce
 #Part 1
-seeds, *maps = open('C:\\Users\\hp\\OneDrive\\Desktop\\Code\\Advent_Of_Code_2023\\input5.txt').read().split('\n\n')
+seeds, *maps = open('input.txt').read().split('\n\n')
 
 def check(seed, m):
     _,*ranges = m.split('\n')
