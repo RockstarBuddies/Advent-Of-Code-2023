@@ -1,7 +1,7 @@
 
 from collections import Counter
 
-with open("C:\\Users\\hp\\OneDrive\\Desktop\\Code\\Advent_Of_Code_2023\\input7.txt") as f:
+with open("input.txt") as f:
     data = f.read().strip()
 
 
@@ -37,9 +37,3 @@ print(solve(data))
 
 #Part 2
 print(solve(data.replace("J", "*")))
-'''
-
-import collections as c;L='J23456789TQKA';print(sum(r*int(b)for r,(*_,b)in enumerate(sorted((max(sorted(c.Counter(h.replace('J',l)).values())[::-1]for l in L),[*map(L.index,h)],b)for h,b in map(str.split,open("C:\\Users\\hp\\OneDrive\\Desktop\\Code\\input7.txt"))),1)))
-
-
-'''
