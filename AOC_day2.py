@@ -2,7 +2,7 @@ import math
 import re
 from collections import defaultdict
 
-with open("C:\\Users\\hp\\OneDrive\\Desktop\\Code\\Advent_Of_Code_2023\\input2.txt") as f:
+with open("input.txt") as f:
     data = f.read().strip().split("\n")
 
 
