@@ -4,4 +4,4 @@ def predict(nums):
     return nums[-1] + (predict(diffs) if any(diffs) else 0)
 
 print('part 1:', sum(map(predict,numbers)))
-print('part 2:', sum(predict(num[::-1]) for num in numbers)
+print('part 2:', sum(predict(num[::-1]) for num in numbers))
